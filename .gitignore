@@ -1,0 +1,73 @@
+# For checking that no file has been unduly ignored, run:
+# $ git ls-files -i --exclude-per-directory=.gitignore
+# Any file that is displayed should be removed from the ignore list
+# (possibly by an exclusion rule beginning with an exclamation mark)
+
+# Generic ignore rules
+*~
+*.o
+*.a
+*.fig
+\#*\#
+*.exe
+*.out
+*.mod
+cofb.txt
+call_dv
+hmat.txt
+firstad
+firstfd
+secondad
+finite
+orig
+ar-lib
+compile
+*.bak
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# build system
+*.m4
+.deps/
+depcomp
+m4/
+autom4te.cache/
+Makefile
+Makefile.in
+config.h
+config.h.in
+config.log
+config.status
+configure
+config.guess
+config.sub
+configure.scan
+install-sh
+missing
+.dirstamp
+
+#tex
+*.bbl
+*.blg
+*.aux
+*.log
+*.pdf
+
+Derivs/AD/libraries/LIBAIM2/call_aim
+Derivs/AD/libraries/LIBAIM2/finite_diff
+
+Derivs/AD/libraries/lapack-3.2.1/INSTALL/testdlamch
+Derivs/AD/libraries/lapack-3.2.1/INSTALL/testdsecnd
+Derivs/AD/libraries/lapack-3.2.1/INSTALL/testieee
+Derivs/AD/libraries/lapack-3.2.1/INSTALL/testlsame
+Derivs/AD/libraries/lapack-3.2.1/INSTALL/testsecond
+Derivs/AD/libraries/lapack-3.2.1/INSTALL/testslamch
+Derivs/AD/libraries/lapack-3.2.1/INSTALL/testversion

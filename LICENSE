@@ -1,0 +1,22 @@
+Format-Specification:
+Upstream-Name: AIMAD
+Upstream-Contact:
+ Houtan Bastani <houtan@dynare.org>
+ Luca Guerrieri <luca.guerrieri@frb.gov>
+
+Files: *
+Copyright: 2006-2014 Houtan Bastani and Luca Guerrieri
+License:
+ AIMAD is copyright Houtan Bastani and Luca Guerrieri.
+ At the present moment, you may not modify it or redistribute it.
+ .
+ This code is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ .
+ Nothing in this software should be interpreted as reflecting the views
+ of the Board of Governors of the Federal Reserve System or of any other
+ person associated with the Federal Reserve System.
+ .
+ This license file and copyright should be placed in any file that is taken from
+ this repository

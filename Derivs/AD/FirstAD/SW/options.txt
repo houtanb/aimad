@@ -1,0 +1,5 @@
+Begin
+   Verify Level = -1
+   Iteration Limit = 100000
+   Optimality Tolerance = 10e-4
+End
