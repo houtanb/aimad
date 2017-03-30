@@ -1,0 +1,17 @@
+language: c
+
+git:
+  depth: 1
+
+dist: trusty
+
+install:
+  - export
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq gfortran
+  - git clone --depth=1 https://github.com/houtanb/aimad.git ~/builds/aimad
+  - cd ~/builds/aimad
+  - autoreconf -si && ./configure && make
+
+script:
+  - ./success.sh
